@@ -36,8 +36,29 @@ public class Book {
     @Column(name = "image_url")
     private String imageURL;
 
+    @Enumerated
     private Language language;
 
+    // ======================================
+    // =            Constructors            =
+    // ======================================
+    public Book() {
+    }
+
+    public Book(String isbn, String title, Float unitCost, Integer nbOfPages, Language language, Date publicationDate, String imageURL, String description) {
+        this.isbn = isbn;
+        this.title = title;
+        this.unitCost = unitCost;
+        this.nbOfPages = nbOfPages;
+        this.language = language;
+        this.publicationDate = publicationDate;
+        this.imageURL = imageURL;
+        this.description = description;
+    }
+
+    // ======================================
+    // =        Getters and Setters         =
+    // ======================================
     public Long getId() {
         return id;
     }
@@ -109,6 +130,11 @@ public class Book {
     public void setLanguage(Language language) {
         this.language = language;
     }
+
+
+    // ======================================
+    // =   Methods hash, equals, toString   =
+    // ======================================
 
     @Override
     public String toString() {
