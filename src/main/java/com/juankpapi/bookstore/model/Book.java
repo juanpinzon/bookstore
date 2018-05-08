@@ -1,6 +1,10 @@
 package com.juankpapi.bookstore.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.util.Date;
 //Metadata is extra information that will be used for JPA to map this object <Book> to a database
 
@@ -14,20 +18,28 @@ public class Book {
 
     //Use Column(length = <val>) to change the length of an atribute
     @Column(length = 200)
+    @NotNull        //Validation Anotation
+    @Size(min = 1, max =200)
     private String title;
 
     @Column(length = 1000)
+    @Size(min = 1, max = 10000)
     private String description;
 
     //Use Column(name = <val>) to change the name of an atribute in the DB table
     @Column(name = "unit_cost")
+    @Min(1)
     private Float unitCost;
 
+    @Column(length = 50)
+    @NotNull
+    @Size(min = 1, max = 50)
     private String isbn;
 
     //Use Temporal to specify a Date
     @Column(name = "publication_date")
     @Temporal(TemporalType.DATE)
+    @Past
     private Date publicationDate;
 
     @Column(name = "nb_of_pages")
@@ -151,3 +163,42 @@ public class Book {
                 '}';
     }
 }
+
+
+/*
+// ======================================
+// =     VALIDATION EXPLANATION          =
+// ======================================
+- Retrieve valid data is crucial - ensure data is correct
+- Constrain our model (business rule) to the valid data
+- If data is invalid, send feedback so it can be corrected.
+
+* BEEN VALIDATION
+    - Use in all Java EE components
+    - Defines a set of contrains
+    - Using annotations
+    - Validates the set of constrains
+    - Built-in common constrains and APIs to create our own
+    NOTE: Constrains can be added not only to class attribute, but also to constructor and method parameters, as well as return value
+          Then in our app we add Constratins notations to Book class and BookRepository class
+
+* Built-in constrains
+    + Boolean
+        - @AssertFalse
+        - @AssertTrue
+    + Size
+        - @Size
+        - @Digits
+        - @Max, @Min
+    + Date
+        - @Future
+        - @Past
+    + Object
+        - @Null
+        - @NotNull
+    + Regular Expression
+        @Pattern, ie. ^[0-9]+abc$
+
+
+
+ */

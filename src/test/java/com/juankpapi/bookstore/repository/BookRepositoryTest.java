@@ -51,7 +51,7 @@ public class BookRepositoryTest {
     // ======================================
     @Test
     @InSequence(1)
-    public void basic() {
+    public void basicTest() {
         // Count all
         assertEquals(Long.valueOf(0), bookRepository.countAll());
         // Find all
@@ -149,9 +149,79 @@ public class BookRepositoryTest {
         assertEquals(0, bookRepository.findAll().size());
     }
 
+
+    // ======================================
+    // =          VALIDATION TEST           =
+    // ======================================
+
+    @Test(expected = Exception.class)
+    @InSequence(10)
+    public void createInvalidBook() {
+        //Create an invalid book with null title
+        Book book = new Book("isbn", null, 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description");
+        book = bookRepository.create(book);
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(11)
+    public void findWithInvalidId() {
+        bookRepository.find(null);
+    }
+
+
+    @Test(expected = Exception.class)  //expect is used when you know the method is going to fail due an Exception
+    @InSequence(12)
+    public void shouldFailCreatingANullBook() {
+        bookRepository.create(null);
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(13)
+    public void shouldFailCreatingABookWithNullTitle() {
+        bookRepository.create(new Book("isbn", null, 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description"));
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(14)
+    public void shouldFailCreatingABookWithLowUnitCostTitle() {
+        bookRepository.create(new Book("isbn", "title", 0F, 123, Language.ENGLISH, new Date(), "imageURL", "description"));
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(15)
+    public void shouldFailCreatingABookWithNullISBN() {
+        bookRepository.create(new Book(null, "title", 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description"));
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(16)
+    public void shouldFailInvokingFindByIdWithNull() {
+        bookRepository.find(null);
+    }
+
+    @Test
+    @InSequence(17)
+    public void shouldNotFindUnknownId() {
+        assertNull(bookRepository.find(99999L));
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(18)
+    public void shouldFailInvokingDeleteByIdWithNull() {
+        bookRepository.delete(null);
+    }
+
+    @Test(expected = Exception.class)
+    @InSequence(19)
+    public void shouldNotDeleteUnknownId() {
+        bookRepository.delete(99999L);
+    }
+
 }
 /*
-
+// ======================================
+// =       TESTING EXPLANATION          =
+// ======================================
 * Unit Test - JUnit
 	- Single Functionality
 	- In Isolation

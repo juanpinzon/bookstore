@@ -7,45 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6ea4203-5644-4cb7-9da6-5bd26acd5b23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juankpapi/bookstore/repository/BookRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/arquillian.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/juankpapi/bookstore/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/juankpapi/bookstore/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/juankpapi/bookstore/model/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/classes/com/juankpapi/bookstore/model/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/aether-api-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/aether-impl-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/aether-spi-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/aether-util-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-aether-provider-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-artifact-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-core-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-model-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-model-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-plugin-api-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-repository-metadata-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-settings-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/maven-settings-builder-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/plexus-cipher-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/plexus-classworlds-2.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/plexus-interpolation-1.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/plexus-utils-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/sisu-guice-2.1.7-noaop.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/sisu-inject-bean-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookstore-back/WEB-INF/lib/sisu-inject-plexus-1.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juankpapi/bookstore/model/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juankpapi/bookstore/model/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juankpapi/bookstore/model/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juankpapi/bookstore/model/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/juankpapi/bookstore/repository/BookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juankpapi/bookstore/repository/BookRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,8 +42,8 @@
       <file leaf-file-name="BookRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="214">
+              <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="2053">
+              <caret line="182" column="25" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,15 +63,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookRepositoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookRepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/juankpapi/bookstore/repository/BookRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="40" column="117" selection-start-line="40" selection-start-column="117" selection-end-line="40" selection-end-column="117" />
+            <state relative-caret-position="15">
+              <caret line="167" column="32" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1776#1777#0" expanded="true" />
                 <element signature="e#1821#1822#0" expanded="true" />
+                <element signature="e#5295#5296#0" expanded="true" />
+                <element signature="e#5346#5347#0" expanded="true" />
+                <element signature="e#5531#5532#0" expanded="true" />
+                <element signature="e#5574#5575#0" expanded="true" />
+                <element signature="e#6429#6430#0" expanded="true" />
+                <element signature="e#6470#6471#0" expanded="true" />
+                <element signature="e#6544#6545#0" expanded="true" />
+                <element signature="e#6599#6600#0" expanded="true" />
+                <element signature="e#6715#6716#0" expanded="true" />
+                <element signature="e#6758#6759#0" expanded="true" />
+                <element signature="e#6862#6863#0" expanded="true" />
+                <element signature="e#6907#6908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/arquillian.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/test-persistance.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/test-persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/juankpapi/bookstore/repository/BookRepositoryTest.java" />
       </list>
     </option>
@@ -636,7 +612,7 @@
       <workItem from="1525262687650" duration="8000" />
       <workItem from="1525263425397" duration="11198000" />
       <workItem from="1525669474839" duration="6605000" />
-      <workItem from="1525677247059" duration="4187000" />
+      <workItem from="1525677247059" duration="12329000" />
     </task>
     <task id="LOCAL-00001" summary="Module 4 - Entity">
       <created>1524799998273</created>
@@ -649,39 +625,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 01m 45s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 17h 55m 29s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 02m 17s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 17h 57m 15s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 09m 28s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 17h 57m 34s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 12m 01s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 17h 58m 04s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 14m 45s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 19h 47m 06s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 30m 11s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 19h 47m 47s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 49m 07s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 20h 38m 10s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 49m 41s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 21h 36m 18s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 00h 50m 57s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 21h 38m 01s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
-    <history-entry file="BookRepositoryTest - 2018.05.07 at 01h 44m 25s.xml">
+    <history-entry file="BookRepositoryTest - 2018.05.07 at 21h 38m 55s.xml">
       <configuration name="BookRepositoryTest" configurationId="ArquillianJUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58373000" />
+    <option name="totallyTimeSpent" value="66515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,20 +687,21 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293944" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905483" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32788798" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32892057" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46441072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46441072" />
       <window_info anchor="bottom" id="Sequence" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36522755" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36522755" />
       <window_info id="Persistence" order="2" sideWeight="0.50980395" side_tool="true" weight="0.21831736" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49019608" visible="true" weight="0.22044729" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49019608" visible="true" weight="0.22044729" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.3297568" />
       <window_info id="Web" order="2" sideWeight="0.50220263" side_tool="true" weight="0.2639485" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.50220263" side_tool="true" weight="0.2639485" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -732,7 +709,6 @@
       <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.32905483" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -801,6 +777,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1776#1777#0" expanded="true" />
             <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#5295#5296#0" expanded="true" />
+            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5531#5532#0" expanded="true" />
+            <element signature="e#5574#5575#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6470#6471#0" expanded="true" />
+            <element signature="e#6544#6545#0" expanded="true" />
+            <element signature="e#6599#6600#0" expanded="true" />
+            <element signature="e#6715#6716#0" expanded="true" />
+            <element signature="e#6758#6759#0" expanded="true" />
+            <element signature="e#6862#6863#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,6 +835,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1776#1777#0" expanded="true" />
             <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#5295#5296#0" expanded="true" />
+            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5531#5532#0" expanded="true" />
+            <element signature="e#5574#5575#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6470#6471#0" expanded="true" />
+            <element signature="e#6544#6545#0" expanded="true" />
+            <element signature="e#6599#6600#0" expanded="true" />
+            <element signature="e#6715#6716#0" expanded="true" />
+            <element signature="e#6758#6759#0" expanded="true" />
+            <element signature="e#6862#6863#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,8 +1088,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="214">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/model/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2053">
+          <caret line="182" column="25" selection-start-line="182" selection-start-column="25" selection-end-line="182" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1098,22 +1108,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/juankpapi/bookstore/repository/BookRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="40" column="117" selection-start-line="40" selection-start-column="117" selection-end-line="40" selection-end-column="117" />
+        <state relative-caret-position="15">
+          <caret line="167" column="32" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1776#1777#0" expanded="true" />
             <element signature="e#1821#1822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/juankpapi/bookstore/model/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5295#5296#0" expanded="true" />
+            <element signature="e#5346#5347#0" expanded="true" />
+            <element signature="e#5531#5532#0" expanded="true" />
+            <element signature="e#5574#5575#0" expanded="true" />
+            <element signature="e#6429#6430#0" expanded="true" />
+            <element signature="e#6470#6471#0" expanded="true" />
+            <element signature="e#6544#6545#0" expanded="true" />
+            <element signature="e#6599#6600#0" expanded="true" />
+            <element signature="e#6715#6716#0" expanded="true" />
+            <element signature="e#6758#6759#0" expanded="true" />
+            <element signature="e#6862#6863#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
           </folding>
         </state>
       </provider>
