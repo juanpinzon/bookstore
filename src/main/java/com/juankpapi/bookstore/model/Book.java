@@ -173,7 +173,7 @@ public class Book {
 - Constrain our model (business rule) to the valid data
 - If data is invalid, send feedback so it can be corrected.
 
-* BEEN VALIDATION
+* BEA  N VALIDATION
     - Use in all Java EE components
     - Defines a set of contrains
     - Using annotations

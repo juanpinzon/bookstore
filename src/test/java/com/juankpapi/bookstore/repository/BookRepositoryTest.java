@@ -2,6 +2,9 @@ package com.juankpapi.bookstore.repository;
 
 import com.juankpapi.bookstore.model.Book;
 import com.juankpapi.bookstore.model.Language;
+import com.juankpapi.bookstore.util.NumberGenerator;
+import com.juankpapi.bookstore.util.TextUtil;
+import com.juankpapi.bookstore.util.IsbnGenerator;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.arquillian.junit.InSequence;
@@ -41,6 +44,9 @@ public class BookRepositoryTest {
                 .addClass(Book.class)
                 .addClass(Language.class)
                 .addClass(BookRepository.class)
+                .addClass(IsbnGenerator.class)
+                .addClass(NumberGenerator.class)
+                .addClass(TextUtil.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
                 .addAsManifestResource("META-INF/test-persistence.xml", "persistence.xml");
     }
@@ -58,7 +64,7 @@ public class BookRepositoryTest {
         assertEquals(0, bookRepository.findAll().size());
 
         //Create a book
-        Book book = new Book("isbn", "a title", 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description");
+        Book book = new Book("isbn", "a   title", 12F, 123, Language.ENGLISH, new Date(), "imageURL", "description");
         book = bookRepository.create(book);
         Long bookId = book.getId();
 
