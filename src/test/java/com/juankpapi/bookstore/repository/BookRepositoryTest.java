@@ -160,7 +160,7 @@ public class BookRepositoryTest {
     // =          VALIDATION TEST           =
     // ======================================
 
-    @Test(expected = Exception.class)
+    @Test(expected = Exception.class)           // Like <throws Exception>, but handle automatically
     @InSequence(10)
     public void createInvalidBook() {
         //Create an invalid book with null title
