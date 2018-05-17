@@ -1,5 +1,8 @@
 package com.juankpapi.bookstore.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -10,45 +13,57 @@ import java.util.Date;
 
 //Object is an Entity
 @Entity
+// Documentation
+@ApiModel(description = "Book resource representation" )
 public class Book {
 
-    //Primary key
-    @Id @GeneratedValue (strategy = GenerationType.AUTO)
+
+    @Id             // Primary key
+    @GeneratedValue (strategy = GenerationType.AUTO)
+    @ApiModelProperty("Identifier")                         // Documentation
     private Long id;
 
     //Use Column(length = <val>) to change the length of an atribute
     @Column(length = 200)
     @NotNull        //Validation Anotation
     @Size(min = 1, max =200)
+    @ApiModelProperty("Title of the book")                  // Documentation
     private String title;
 
     @Column(length = 1000)
     @Size(min = 1, max = 10000)
+    @ApiModelProperty("Summary describing the book")        // Documentation
     private String description;
 
     //Use Column(name = <val>) to change the name of an atribute in the DB table
     @Column(name = "unit_cost")
     @Min(1)
+    @ApiModelProperty("Unit cost")                          // Documentation
     private Float unitCost;
 
     @Column(length = 50)
     @NotNull
     @Size(min = 1, max = 50)
+    @ApiModelProperty("ISBN number")                        // Documentation
     private String isbn;
 
     //Use Temporal to specify a Date
     @Column(name = "publication_date")
     @Temporal(TemporalType.DATE)
     @Past
+    @ApiModelProperty("Date in which the book has been published")  // Documentation
     private Date publicationDate;
 
     @Column(name = "nb_of_pages")
+    @ApiModelProperty("Number of pages")                    // Documentation
     private Integer nbOfPages;
 
     @Column(name = "image_url")
+    @ApiModelProperty("URL of the image cover")             // Documentation
     private String imageURL;
 
     @Enumerated
+    @ApiModelProperty( value = "Language in which the book has been written")   // Documentation
     private Language language;
 
     // ======================================
@@ -173,7 +188,7 @@ public class Book {
 - Constrain our model (business rule) to the valid data
 - If data is invalid, send feedback so it can be corrected.
 
-* BEA  N VALIDATION
+* BEAN VALIDATION
     - Use in all Java EE components
     - Defines a set of contrains
     - Using annotations
@@ -198,7 +213,4 @@ public class Book {
         - @NotNull
     + Regular Expression
         @Pattern, ie. ^[0-9]+abc$
-
-
-
  */

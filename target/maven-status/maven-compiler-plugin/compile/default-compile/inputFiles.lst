@@ -1,3 +1,8 @@
-/Users/juanpinzon/workspace/dev/apps/bookstore-back/src/main/java/com/juankpapi/bookstore/model/Language.java
-/Users/juanpinzon/workspace/dev/apps/bookstore-back/src/main/java/com/juankpapi/bookstore/model/Book.java
-/Users/juanpinzon/workspace/dev/apps/bookstore-back/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/model/Book.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/util/IsbnGenerator.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/model/Language.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/repository/BookRepository.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/util/TextUtil.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/util/NumberGenerator.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/rest/JAXRSConfiguration.java
+/Users/juanpinzon/workspace/dev/apps/bookstore/bookstore-back/src/main/java/com/juankpapi/bookstore/rest/BookEndPoint.java

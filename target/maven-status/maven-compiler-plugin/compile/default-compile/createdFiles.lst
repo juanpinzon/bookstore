@@ -1,2 +1,8 @@
+com/juankpapi/bookstore/util/IsbnGenerator.class
+com/juankpapi/bookstore/rest/BookEndPoint.class
+com/juankpapi/bookstore/util/NumberGenerator.class
+com/juankpapi/bookstore/util/TextUtil.class
 com/juankpapi/bookstore/model/Book.class
+com/juankpapi/bookstore/repository/BookRepository.class
 com/juankpapi/bookstore/model/Language.class
+com/juankpapi/bookstore/rest/JAXRSConfiguration.class
